@@ -7,18 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/14qSaRV8xlR8GFP5azzgUgE0zRtrYivz4
 """
 
-!pip install streamlit
-
-!pip install -U langchain-community
-
-!pip install PyPDF2
-
-!pip install pysqlite3-binary
-
-!pip install pypdf
-!pip install chromadb
-!pip install tiktoken
-!pip install langchain
 
 import os
 
