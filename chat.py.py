@@ -7,11 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/14qSaRV8xlR8GFP5azzgUgE0zRtrYivz4
 """
 
-import pysqlite3
+'''import pysqlite3
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
-import sqlite3
+import sqlite3'''
 
 
 import os
