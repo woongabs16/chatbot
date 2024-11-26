@@ -7,14 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/14qSaRV8xlR8GFP5azzgUgE0zRtrYivz4
 """
 
-'''import pysqlite3
+import pysqlite3
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
-import sqlite3'''
+import sqlite3
 
 
-'''import os
+import os
 os.environ["ANTHROPIC_API_KEY"] = "'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"
 
 
@@ -90,7 +90,7 @@ def user_input(user_question):
 
     retriever=new_db.as_retriever()
     retrieval_chain= create_retriever_tool(retriever,"pdf_extractor","This tool is to give answer to queries from the pdf")
-    get_conversational_chain(retrieval_chain,user_question)'''
+    get_conversational_chain(retrieval_chain,user_question)
 
 
 
