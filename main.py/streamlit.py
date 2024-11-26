@@ -30,7 +30,7 @@ st.set_page_config(
 )
 
 
-os.environ["OPENAI_API_KEY"] = 'OPENAI apikey' # 환경변수에 OPENAI_API_KEY를 설정합니다.
+os.environ["OPENAI_API_KEY"] = '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' # 환경변수에 OPENAI_API_KEY를 설정합니다.
 
 loader = PyPDFLoader('학습에 필요한 pdf 파일.pdf')
 documents = loader.load()
